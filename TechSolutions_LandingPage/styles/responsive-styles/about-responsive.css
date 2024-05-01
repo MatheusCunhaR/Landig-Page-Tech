@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1480px){
+    body{
+        width: 100vw;
+    }
+    
+    .image-break img{
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .image-about{
+        width: 30vw;
+        height: 40vw;
+    }
+
+    .img-what-we-do img{
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    
+    header h1{
+        font-size: 30px;
+    }
+
+    #title{
+        padding-left: 0;
+    }
+
+    header li{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+
+    .image-about{
+       display: none;
+    }
+
+    #about-text{
+        width: 100vw;
+    }
+
+    .about-tech-text{
+        width: 100vw;
+    }
+    
+    .image-break img{
+        height: 35vh;
+    }
+
+    .img-what-we-do{
+        display: none;
+    }
+
+   
+    #choose-us-text{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #what-we-do-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-tech{
+        width: 100vw;
+        padding: 0;
+    }
+
+    .about-us-text{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin: 1px;
+    }
+
+
+    .about-text-who-we-are{
+        width: 100vw;
+    }
+
+    .our-mission{
+        
+        width: 100vw;
+    }
+
+    img{
+        display: none;
+    }
+
+    .separate-introduction{
+        margin: 2px;
+    }
+
+    .separate-text{
+        margin: 1px;
+    }
+    
+    #choose-us-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        margin-top: 10%;
+        width: 100vw;
+        height: 30vw;
+      }
+
+}
+
+

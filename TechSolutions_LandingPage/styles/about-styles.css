@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Open+Sans:ital,wdth,wght@0,75..100,700;1,75..100,700&display=swap");
+
+body {
+  max-width: 1800px;
+  margin: 0 auto;
+  font-family: poppinsregular;
+  color: white;
+  background-color: #343434;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+
+header h1 {
+  font-family: "bebas neue";
+  font-size: 50px;
+}
+
+#title {
+  line-height: 10px;
+  padding-left: 60px;
+  margin: 20px;
+  cursor: default;
+}
+
+#tech-title {
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+
+header li {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  padding-right: 10px;
+  margin: 38.6px;
+  text-align: center;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+header li:hover {
+  color: orange;
+}
+
+header a {
+  text-decoration: none;
+}
+
+#btn-register {
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+}
+
+#btn-register:hover {
+  color: white;
+  background-color: orange;
+  transition: 0.3s all;
+}
+
+span {
+  color: orange;
+  font-weight: bold;
+}
+
+#about-tech {
+  display: flex;
+  margin-top: 50px;
+}
+
+.about-tech-text {
+  width: 60%;
+  font-size: 20px;
+  margin: 25px;
+  padding: 20px;
+  background-color: #1e8fff28;
+  border-radius: 105px;
+  overflow: hidden;
+}
+
+.about-tech-text span {
+  color: orange;
+  text-align: center;
+}
+
+.about-tech-text h1 {
+  text-align: center;
+}
+
+.about-us-text {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  margin-top: 4rem;
+  font-size: 20px;
+}
+
+.about-us-text h2 {
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+
+.about-text-who-we-are {
+  max-width: 50%;
+  background-color: #1e8fff28;
+  border-radius: 90px;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.our-mission {
+  max-width: 50%;
+  background-color: #1e8fff28;
+  border-radius: 90px;
+  padding: 20px;
+}
+
+#what-we-do-text {
+  display: flex;
+  position: relative;
+}
+
+.separate-text {
+  background-color: #1e8fff28;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+.separate-introduction {
+  font-size: 20px;
+  margin-left: 11px;
+}
+
+.separate-introduction h2 {
+  display: flex;
+  justify-content: center;
+  color: orange;
+}
+
+#choose-us-text {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  width: 90vw;
+  background-color: #1e8fff28;
+  padding-left: 20px;
+  border-radius: 50px;
+}
+
+.choose-us-title {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-what-we-do img {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 10px;
+  top: 14em;
+  width: 700px;
+  height: 400px;
+}
+
+.image-break img {
+  margin-top: 5rem;
+  width: 1514px;
+  height: 500px;
+}
+
+#about-tech img {
+  width: 40%;
+  border: none;
+  border-radius: 120px;
+  padding-right: 10px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #373737;
+  height: 6rem;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+
+footer p{
+  padding-left: 1rem;
+}
+
+.footer-btn{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-right: 1.5rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+

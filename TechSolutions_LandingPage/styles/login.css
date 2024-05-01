@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Open+Sans:ital,wdth,wght@0,75..100,700;1,75..100,700&display=swap");
+
+body {
+  background-color: #35495e;
+  margin: 0;
+  font-family: poppinsregular;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  line-height: 10px;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: "bebas neue", sans-serif;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.tech-title {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+.main-login {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-title {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-title {
+  width: 60%;
+}
+
+.title-left-login {
+  font-size: 22px;
+  line-height: 15px;
+  color: #ffd166;
+}
+
+.title-left-login p {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.right-login {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #9DBED4;
+  border: none;
+  padding: 25px;
+  border-radius: 80px 350px;
+  box-shadow: 0px 10px 40px rgb(0, 0, 0, 0.5);
+}
+
+.card-login {
+  width: 80%;
+  height: 100%;
+  background: #dae6f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 300px 50px;
+  box-shadow: 0 10px 40px rgb(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.card-login > .card-title{
+  position: absolute;
+  top: 2.5rem;
+  color: #35495E;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.card-login > .card-title > h2{
+  font-family: "MontSerrat", sans-serif;
+  font-weight: 800;
+}
+
+.display-login > .btn-login > button {
+  width: 50%;
+  color: #333333;
+  background: #4a90e2;
+  border: none;
+  border-radius: 15px;
+  font-weight: 800;
+  padding: 3px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgb(0, 0, 0, 0.5);
+}
+
+.display-login > .btn-login > button:hover{
+  background: hsl(212, 72%, 70%);
+}
+
+.display-login > .btn-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+
+.text-box{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5px;
+}
+
+.text-box > label > i{
+  font-size: 18px;
+}
+
+.text-box > input {
+  background-color: transparent;
+  border-radius: 15px;
+  border-color: #666666;
+  color: #333333;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+

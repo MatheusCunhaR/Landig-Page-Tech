@@ -1,0 +1,122 @@
+@media only screen and (max-width: 1375px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #aside-text > h2{
+        font-size: 30px;
+        line-height: 10px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    
+    #aside-text{
+        width: 80vw;
+    }
+    #home > img{
+        width: 50vw;
+
+    }
+}
+
+@media only screen and (max-width: 1108px){
+    
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    
+    #aside-text{
+        width: 80vw;
+    }
+    #home > img{
+        width: 40vw;
+
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    img{
+        width: 30vw;
+    }
+
+}
+
+@media only screen and (max-width: 940px){
+    #aside-text h2{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    img{
+        display: none;
+    }
+
+    header{
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        gap: 5rem;
+    }
+
+    
+
+    header li{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.5rem;
+    }
+
+    img{
+        display: none;
+    }
+
+    #title{
+        width: 10vw;
+        padding: 0;
+        
+    }
+
+    #title > h1{
+        font-size: 36px;
+    }
+
+    aside #aside-text{
+        width: 90vw;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 0;
+        margin: 0;
+        margin-left: 5px;
+        
+    }
+
+    #aside-text h2{
+        font-size: 20px;
+    }
+}
+
+

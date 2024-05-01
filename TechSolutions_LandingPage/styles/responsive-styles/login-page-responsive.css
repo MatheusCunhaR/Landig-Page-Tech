@@ -1,0 +1,78 @@
+@media only screen and (max-width: 960px){
+    
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .right-login{
+        width: 50vw;
+        height: 50vh;
+        padding: 0;
+        margin: 3rem;
+    }
+
+
+
+    .card-login{
+        width: 50vw;
+        height: 40vh;
+    }
+
+    .left-title{
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .title-left-login{
+        font-size: 15px;
+    }
+
+    img{
+        width: 35vw;
+    }
+
+    header{
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-left-login{
+        display: none;
+    }
+
+
+    .left-title{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+
+    img{
+        width: 50vw;
+    }
+
+    .card-login{
+        width: 90%;
+    }
+}
